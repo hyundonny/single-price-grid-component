@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import GlobalStyle from "./styles/globalStyles";
 
-function App() {
-  return <div>Single Price Grid Component</div>;
-}
+const App = () => {
+  return (
+    <>
+      <GlobalStyle />
+      <div>Single Price Grid Component</div>
+    </>
+  );
+};
 
 export default App;
