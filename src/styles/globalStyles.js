@@ -21,6 +21,18 @@ const GlobalStyle = createGlobalStyle`
 	  padding: 0;
     font-family: 'Karla', sans-serif;
   }
+
+  html {
+    background-color: var(--light-gray);
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 export default GlobalStyle;

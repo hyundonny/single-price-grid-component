@@ -1,11 +1,17 @@
 import React from "react";
 import GlobalStyle from "./styles/globalStyles";
+import Container from "./components/Container";
+import Card from "./components/Card";
 
 const App = () => {
   return (
     <>
       <GlobalStyle />
-      <div>Single Price Grid Component</div>
+      <Container>
+        <Card />
+        <Card />
+        <Card />
+      </Container>
     </>
   );
 };
