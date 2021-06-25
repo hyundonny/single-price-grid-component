@@ -19,10 +19,11 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 ### Screenshot
 
 Mobile
-![](./screenshots/Mobile.png)
+
+<img src="./src/screenshots/mobile.png" height=700 />
 
 Desktop
-![](./screenshots/Desktop.png)
+![](./src/screenshots/desktop.png)
 
 ## My process
 
