@@ -1,16 +1,19 @@
 import React from "react";
 import GlobalStyle from "./styles/globalStyles";
+
 import Container from "./components/Container";
-import Card from "./components/Card";
+import FirstCard from "./components/firstCard";
+import SecondCard from "./components/secondCard";
+import ThirdCard from "./components/thirdCard";
 
 const App = () => {
   return (
     <>
       <GlobalStyle />
       <Container>
-        <Card />
-        <Card />
-        <Card />
+        <FirstCard />
+        <SecondCard />
+        <ThirdCard />
       </Container>
     </>
   );
