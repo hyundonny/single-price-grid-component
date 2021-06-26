@@ -18,6 +18,7 @@ const StyledSecondCard = styled(StyledCard)`
     padding-bottom: 0.65rem;
     display: flex;
     align-items: center;
+    font-size: 1rem;
 
     &-price {
       color: var(--white);
@@ -53,14 +54,12 @@ const StyledSecondCard = styled(StyledCard)`
 const SecondCard = () => {
   return (
     <StyledSecondCard type="second">
-      <div className="title second-card__title">Monthly Subscription</div>
-      <div className="second-card__subtitle">
+      <h1 className="title second-card__title">Monthly Subscription</h1>
+      <h2 className="second-card__subtitle">
         <span className="second-card__subtitle-price">$29</span>
         <span className="second-card__subtitle-text">per month</span>
-      </div>
-      <div className="second-card__body">
-        Full access for less than $1 a day
-      </div>
+      </h2>
+      <p className="second-card__body">Full access for less than $1 a day</p>
       <button className="second-card__button" type="button">
         Sign Up
       </button>

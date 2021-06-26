@@ -27,7 +27,7 @@ const StyledThirdCard = styled(StyledCard)`
     opacity: 0.8;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: 900px) {
     .third-card__li {
       font-size: 0.85rem;
       line-height: 1.35;
@@ -52,7 +52,7 @@ const listItems = list.map((elem) => {
 const ThirdCard = () => {
   return (
     <StyledThirdCard type="third">
-      <div className="title third-card__title">Why Us</div>
+      <h1 className="title third-card__title">Why Us</h1>
       <ul className="third-card__list">{listItems}</ul>
     </StyledThirdCard>
   );

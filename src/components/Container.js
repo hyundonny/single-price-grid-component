@@ -11,7 +11,7 @@ const StyledContainer = styled.div`
   overflow: hidden;
   border-radius: 0.5rem;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 900px) {
     max-width: 670px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);

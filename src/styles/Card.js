@@ -4,7 +4,7 @@ const StyledCard = styled.div`
   grid-area: ${(props) => props.type};
   padding: 1.5rem 1.25rem;
 
-  @media (min-width: 1440px) {
+  @media (min-width: 900px) {
     padding: 2.25rem 3rem;
   }
 

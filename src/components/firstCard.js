@@ -14,6 +14,7 @@ const StyledFirstCard = styled(StyledCard)`
     color: var(--bright-yellow);
     font-weight: 400;
     padding-bottom: 1rem;
+    font-size: 1rem;
   }
 
   .first-card__body {
@@ -24,7 +25,7 @@ const StyledFirstCard = styled(StyledCard)`
     font-size: 0.9rem;
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: 900px) {
     .first-card__body {
       font-size: 1rem;
     }
@@ -34,15 +35,15 @@ const StyledFirstCard = styled(StyledCard)`
 const FirstCard = () => {
   return (
     <StyledFirstCard type="first">
-      <div className="title first-card__title">Join our community</div>
-      <div className="first-card__subtitle">
+      <h1 className="title first-card__title">Join our community</h1>
+      <h2 className="first-card__subtitle">
         30-day, hassle-free money back guarantee
-      </div>
-      <div className="first-card__body">
+      </h2>
+      <p className="first-card__body">
         Gain access to our full library of tutorials along with expert code
         reviews. Perfect for any developers who are serious about honing their
         skills
-      </div>
+      </p>
     </StyledFirstCard>
   );
 };
